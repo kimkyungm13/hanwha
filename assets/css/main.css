@@ -8,12 +8,21 @@ svg {
     height: 100%;
 }
 
+#header.none {
+    display: none
+}
+
 #header .inner {
     display: flex;
     align-items: center;
     padding: 25px 50px;
     justify-content: space-between;
     height: 9.6rem;
+}
+
+.inner {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
 }
 
 #header .logo {
@@ -69,6 +78,12 @@ svg {
 
 section {
     min-height: 100vh;
+}
+
+.section1 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 9.6rem;
 }
 
 .section1 .bg {
