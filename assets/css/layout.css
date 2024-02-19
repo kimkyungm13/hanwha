@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* inter-100 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Inter/inter-v13-latin-100.ttf') format('woff2'),
+        url('../fonts/Inter/inter-v13-latin-100.ttf') format('truetype');
+}
+
+/* inter-200 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/Inter/inter-v13-latin-300.woff2') format('woff2'),
+        url('../fonts/Inter/inter-v13-latin-300.ttf') format('truetype');
+}
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Inter/inter-v13-latin-regular.woff2') format('woff2'),
+        url('../fonts/Inter/inter-v13-latin-regular.ttf') format('truetype');
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Inter/inter-v13-latin-500.woff2') format('woff2'),
+        url('../fonts/Inter/inter-v13-latin-500.ttf') format('truetype');
+}
+
+/* inter-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Inter/inter-v13-latin-700.woff2') format('woff2'),
+        url('../fonts/Inter/inter-v13-latin-700.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'hanwha';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Hanwha Regular'), local('한화 R_OTF'),
+        url('../fonts/Hanwha/02HanwhaR_OTF.woff') format('woff'),
+        url('../fonts/Hanwha/02HanwhaR_OTF.otf') format('opentype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'hanwha';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Hanwha Light'), local('한화 L_OTF'),
+        url('../fonts/Hanwha/03HanwhaL_OTF.woff') format('woff'),
+        url('../fonts/Hanwha/03HanwhaL_OTF.otf') format('opentype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'hanwha';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Hanwha Bold'), local('한화 B_OTF'),
+        url('../fonts/Hanwha/01HanwhaB_OTF.woff') format('woff'),
+        url('../fonts/Hanwha/01HanwhaB_OTF.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HanwhaGothic';
+    src: local('HanwhaGothic'), local('HanwhaGothicROTFA'),
+        url('../fonts/HanwhaGothic/HanwhaGothicROTFA.woff2') format('woff2'),
+        url('../fonts/HanwhaGothic/HanwhaGothicROTFA.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HanwhaGothic';
+    src: local('HanwhaGothic'), local('HanwhaGothicLOTFA'),
+        url('../fonts/HanwhaGothic/HanwhaGothicLOTFA.woff2') format('woff2'),
+        url('../fonts/HanwhaGothic/HanwhaGothicLOTFA.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HanwhaGothic';
+    src: local('HanwhaGothic'), local('HanwhaGothicBOTFA'),
+        url('../fonts/HanwhaGothic/HanwhaGothicBOTFA.woff2') format('woff2'),
+        url('../fonts/HanwhaGothic/HanwhaGothicBOTFA.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --c_white: #fff;
+    --c_white_60: rgba(255, 255, 255, .6);
+    --c_white_40: rgba(255, 255, 255, .4);
+    --c_white_20: rgba(255, 255, 255, .2);
+    --c_black: #000;
+    --c_gray1: #F9F9F9;
+    --c_gray2: #E6E6E6;
+    --c_gray3: #CACACA;
+    --c_gray4: #B3B3B3;
+    --c_gray5: #8E8E8E;
+    --c_gray6: #4B4B4B;
+    --c_primary: #FF6600;
+    --c_primary_70: #F89B6C;
+    --c_primary_50: #FBB584;
+    --c_primary_10: rgba(255, 102, 0, .1);
+    --c_secondary: #04B700;
+    --c_secondary_10: #EAF8EA;
+    --c_error: #f62323;
+    --c_confirm: #25b44d;
+    --c_link: #1a91ff;
+
+    --title_fz_xxl: 10rem;
+    --title_fz_xl: 6.4rem;
+    --title_fz_l: 4.8rem;
+    --title_fz_m: 3.2rem;
+    --title_fz_s: 2.4rem;
+    --title_fz_xs: 2rem;
+
+    --fz_l: 1.8rem;
+    --fz_m: 1.6rem;
+    --fz_s: 1.4rem;
+    --fz_xs: 1.3rem;
+
+    --round_base: 0.3rem;
+    --round_s: 0.6rem;
+    --round_m: 1rem;
+    --round_max: 999rem;
+
+    --spacing_base: 3.2rem;
+    --spacing_xs: 4rem;
+    --spacing_s: 6.4rem;
+    --spacing_m: 8rem;
+    --spacing_l: 10.4rem;
+    --spacing_xl: 15.2rem;
+}
+
+html {
+    font-family: 'Inter', 'HanwhaGothic', sans-serif;
+    font-size: 10px;
+    /*font-size: .5208vw;*/
+}
+
+body {
+    overflow-y: scroll;
+    font-size: var(--fz_m);
+    color: var(--c_black);
+    line-height: 1.5;
+}
