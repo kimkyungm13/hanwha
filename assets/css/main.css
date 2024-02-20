@@ -148,3 +148,17 @@ section {
 .biz_contents {
     display: none;
 }
+
+.section3 {
+    position: relative;
+}
+
+.section3 .pf-group {
+    display: flex;
+}
+
+.section3 .bg {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+}

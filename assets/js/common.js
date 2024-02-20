@@ -34,3 +34,11 @@ gsap.to('.section2 .sc02-tit', {
     autoAlpha: 0,
     duration: 2,
 })
+const panel = document.querySelector(".section2");
+
+ScrollTrigger.create({
+    trigger: panel,
+    start: 'top top',
+    pin: true,
+    pinSpacing: false
+})
