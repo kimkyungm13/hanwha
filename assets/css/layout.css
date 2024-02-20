@@ -165,7 +165,7 @@ html {
 
 body {
     overflow-y: scroll;
-    font-size: var(--fz_m);
+    font-size: 1.6rem;
     color: var(--c_black);
     line-height: 1.5;
 }

@@ -86,6 +86,17 @@ section {
     padding-top: 9.6rem;
 }
 
+.section1 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
 .section1 .bg {
     position: absolute;
     z-index: -1;
@@ -100,4 +111,40 @@ section {
     justify-content: center;
     height: calc(100vh - 9.6rem);
     color: #fff
+}
+
+.section2 {
+    position: relative;
+}
+
+.section2 .inner {
+    position: absolute;
+    top: 0;
+    z-index: 10
+}
+
+.section2 h3 {
+    padding-top: 150px;
+    color: #fff
+}
+
+.sc02-tit span {
+    font-size: 10rem;
+    color: #fff;
+    display: block;
+    line-height: 1.2;
+}
+
+.play00 {
+    position: relative;
+}
+
+.play00 .bg {
+    position: absolute;
+    z-index: -1;
+    inset: 0
+}
+
+.biz_contents {
+    display: none;
 }
