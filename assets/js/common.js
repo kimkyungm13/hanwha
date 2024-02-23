@@ -31,6 +31,7 @@ gsap.to('.section2 .sc02-tit', {
         pin: true,
         scrub: true,
     },
+
     autoAlpha: 0,
     duration: 2,
 });
